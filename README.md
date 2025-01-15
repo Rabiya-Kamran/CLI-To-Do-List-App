@@ -23,10 +23,61 @@ This To-Do List application is a Python-based command-line tool that helps users
 **sample.json:** A JSON file used to store tasks and their statuses. The file is updated when exiting the application.
 
 ## Usage
-# Run the Application
+## Run the Application
 Run the script using Python:
 
 ```python
-python todo.py
+python ToDo.py
+```
+# Menu Options
+After running the program, you can choose one of the following options:
+
+## 1. Add Task:
+
+Enter the task you want to add.
+- Example: Enter task to be added: Complete assignment
+- Output: Task added in todo list and is marked as not done by default.
+## 2. Delete Task:
+
+- Enter the name of the task you want to delete.
+- Example: Enter task to be deleted: Complete assignment
+- Output:
+    - If the task exists: Task deleted.
+    - If the task doesn't exist: Task not present in todo list.
+## 3. Update Task:
+
+- Enter the name of the task you want to mark as "done."
+- Example: Enter task to be updated: Complete assignment
+- Output:
+   - If the task exists: Task updated as done.
+   - If the task doesn't exist: Task not present in todo list.
+## 4. View Tasks:
+
+Display all tasks and their statuses.
+Example Output:
+```python
+All tasks in todo list are listed below:
+
+complete assignment not done
+read book done
+```
+## 5. Exit:
+
+Save the current tasks to sample.json and exit the program.
+Output: Thank you for using the ToDo app! Goodbye!
+
+# Example JSON File
+Here’s an example of how the sample.json file might look:
+```python
+{
+    "complete assignment": "not done",
+    "read book": "done"
+}
 ```
 
+# Error Handling
+- If the sample.json file is missing, a new one is created automatically.
+- If the file contains invalid JSON, the application initializes with an empty task list.
+# Notes
+- Tasks are case-insensitive. For example, adding "Read Book" or "read book" will be treated the same.
+- Ensure that you exit the application properly (option 5) to save changes to the JSON file.
