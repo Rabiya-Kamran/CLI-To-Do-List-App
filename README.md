@@ -12,8 +12,21 @@ This To-Do List application is a Python-based command-line tool that helps users
 ## Requirements
 - Python 3.x
 - JSON module (built-in with Python)
+- 
 ## How It Works
 1. The program initializes by loading tasks from the JSON file (sample.json). If the file doesn't exist or contains invalid JSON, a new task list is created.
 2. Users interact with the application through a menu-driven command-line interface.
 3. All tasks and their statuses are stored in lowercase to ensure uniformity.
 4. Changes are saved to the sample.json file upon exiting the application.
+
+## File Structure
+**sample.json:** A JSON file used to store tasks and their statuses. The file is updated when exiting the application.
+
+## Usage
+# Run the Application
+Run the script using Python:
+
+```python
+python todo.py
+```
+
