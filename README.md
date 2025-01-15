@@ -63,7 +63,7 @@ read book done
 ```
 ## 5. Exit:
 
-Save the current tasks to sample.json and exit the program.
+Save the current tasks to ToDoFile.json and exit the program.
 Output: Thank you for using the ToDo app! Goodbye!
 
 # Example JSON File
