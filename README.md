@@ -3,11 +3,11 @@
 This To-Do List application is a Python-based command-line tool that helps users manage their tasks efficiently. Users can add, delete, update, and view tasks, and the application saves the task list to a JSON file (ToDoFile.json) for persistence.
 
 ## Features
-**- Add Task:** Add a new task to the to-do list. Tasks are marked as "not done" by default.
-**- Delete Task:** Remove an existing task from the list.
-**- Update Task:** Mark a task as "done."
-**- View Tasks:** Display all tasks in the to-do list, along with their statuses.
-**- Save to File:** Automatically save tasks to the ToDoFile.json file when exiting the application.
+**Add Task:** Add a new task to the to-do list. Tasks are marked as "not done" by default.  
+**Delete Task:** Remove an existing task from the list.  
+**Update Task:** Mark a task as "done."  
+**View Tasks:** Display all tasks in the to-do list, along with their statuses.  
+**Save to File:** Automatically save tasks to the ToDoFile.json file when exiting the application.  
 
 ## Requirements
 - Python 3.x
